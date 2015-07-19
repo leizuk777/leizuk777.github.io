@@ -1,0 +1,430 @@
+/* SHELL CSS */
+
+body{
+  margin:0px;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Poiret One', cursive;
+  }
+
+a:hover{
+  text-decoration: none;
+  color:#fdedae;
+  font-family: 'Poiret One', cursive;
+}
+
+h1{
+  font-family: 'Poiret One', cursive;
+  position: relative;
+  left: 20px;
+  color:white;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+
+  }
+
+
+
+#header{
+  width:100%;
+  height:200px;
+  background-color:white;
+}
+#logo{
+  height:100px;
+  width:100px;
+  top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  }
+
+#navbar{
+  background-color: #029582;
+  position: relative;
+  width: 65%;
+  height: 50px;
+  top: 40px;
+  margin-right:auto;
+  margin-left: auto;
+}
+#nav_li{
+  text-align: center;
+}
+
+#navbar li{
+  display:inline;
+  position: relative;
+  top:14px;
+  letter-spacing:1px;
+  margin-right: 30px;
+  }
+
+#body{
+  width:655px;
+  height:575px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  opacity: .7;
+
+}
+
+#footer{
+  width:100%;
+  position: relative;
+  height:175px;
+  background-color:#029582;
+  clear: both;
+}
+#footnavbar{
+  background-color: #003d5a;
+  position: relative;
+  width: 65%;
+  height: 50px;
+  top: 10px;
+  margin-right:auto;
+  margin-left: auto;
+
+}
+#footnav_li{
+  text-align: center;
+}
+
+#footnavbar li{
+  display:inline;
+  position: relative;
+  top:14px;
+  letter-spacing:1px;
+  margin-right: 30px;
+  }
+
+#foot-social{
+  background-color: white;
+  width:100%;
+  height: 60px;
+  position: relative;
+
+}
+
+#social-icons li{
+  display:inline;
+  position: relative;
+  left: 60%;
+  top: 5px;
+  }
+
+
+
+
+/* 4 Box Arrangement for Index Page   */
+
+h1:hover{
+  color: white;
+  font-weight: bold;
+  }
+
+
+
+#index-box1{
+  background-color: #029582;
+  width: 275px;
+  height: 275px;
+  position: relative;
+  float: left;
+  left: 50px;
+  top: 10px;
+  opacity: 1.0;
+  background: url("images/tile-3.jpg");
+
+
+
+}
+
+#index-box2{
+  background-color: #029582;
+  width:275px;
+  height:275px;
+  position: relative;
+  float:right;
+  right: 50px;
+  top: 10px;
+  background: url("images/tile-2.jpg");
+
+
+
+}
+
+#index-box3{
+  background-color: #029582;
+  width: 275px;
+  height: 275px;
+  position: relative;
+  clear: both;
+  float: left;
+  left: 50px;
+  top: 15px;
+  background: url("images/tile-1.jpg");
+
+
+
+
+}
+
+#index-box4{
+  background-color: #029582;
+  width: 275px;
+  height: 275px;
+  position: relative;
+  float: right;
+  right: 50px;
+  top: 15px;
+  background: url("images/tile-4.jpg");
+
+
+
+}
+
+
+/*   16 Blog Box Arrangement    */
+
+ div h3{
+    font-family: 'Raleway', san-serif;
+    position: relative;
+    left: 10px;
+  }
+  a:h3:hover{
+    color: white;
+    font-weight: bolder;
+  }
+
+#body-blog{
+  width:655px;
+  height:455px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  opacity: .7;
+
+}
+
+
+#blog-box1{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box2{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box3{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box4{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box5{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  clear: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box6{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box7{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box8{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box9{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  clear: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box10{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box11{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box12{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box13{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  clear: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box14{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box15{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+#blog-box16{
+  height: 105px;
+  width: 155px;
+  background-color:#029582;
+  position: relative;
+  float: right;
+  margin: 4px;
+  right: 5px;
+
+}
+
+
+/*  INDIVIDUAL BLOG PAGE  */
+
+ h2{
+  position: relative;
+  top: 10px;
+
+  }
+
+
+
+#blog-header{
+
+  width: 300px;
+  height: 50px;
+  top: 10px;
+  right: 75px;
+  position: relative;
+  margin: auto;
+  font-family: 'Raleway', san-serif;
+
+
+}
+
+#blog-body{
+
+  width: 450px;
+  height: 500px;
+  top: 5px;
+  position: relative;
+  margin: auto;
+  font-family: 'Raleway', san-serif;
+
+}
+
+#ret-blog{
+  width: 130px;
+  height: 50px;
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  color: #029582;
+  font-size: 27px;
+  }
+
+div h2:hover{
+  position: relative;
+  top: 10px;
+}
+
+
