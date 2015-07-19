@@ -140,10 +140,14 @@ h1:hover{
   top: 10px;
   opacity: 1.0;
   background: url("images/tile-3.jpg");
-
-
-
 }
+
+.box_head1{
+  position: relative;
+  top: 200px;
+  left: 80px;
+  font-weight: bolder;
+  }
 
 #index-box2{
   background-color: #029582;
@@ -155,9 +159,14 @@ h1:hover{
   top: 10px;
   background: url("images/tile-2.jpg");
 
-
-
 }
+
+.box_head2{
+  position: relative;
+  top: 200px;
+  left: 120px;
+  font-weight: bolder;
+  }
 
 #index-box3{
   background-color: #029582;
@@ -170,10 +179,14 @@ h1:hover{
   top: 15px;
   background: url("images/tile-1.jpg");
 
-
-
-
 }
+
+.box_head3{
+  position: relative;
+  top: 200px;
+  left: 165px;
+  font-weight: bolder;
+  }
 
 #index-box4{
   background-color: #029582;
@@ -185,9 +198,14 @@ h1:hover{
   top: 15px;
   background: url("images/tile-4.jpg");
 
-
-
 }
+
+.box_head4{
+  position: relative;
+  top: 200px;
+  left: 60px;
+  font-weight: bolder;
+  }
 
 
 /*   16 Blog Box Arrangement    */
