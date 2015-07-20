@@ -27,6 +27,11 @@ h1{
 
   }
 
+p {
+  font-size: 18px;
+}
+
+
 
 
 #header{
@@ -467,5 +472,30 @@ div h2:hover{
   position: relative;
   top: 10px;
 }
+
+#footer_blog1{
+  width:100%;
+  position: relative;
+  top: 175px;
+  height:175px;
+  background-color:#029582;
+  clear: both;
+}
+
+#footer_blog3{
+  width:100%;
+  position: relative;
+  top: 780px;
+  height:175px;
+  background-color:#029582;
+  clear: both;
+}
+
+a.blog-link{
+  color: #029582;
+  }
+a:hover.blog-link{
+  color: #003d5a;
+  }
 
 
