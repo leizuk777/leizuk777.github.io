@@ -229,6 +229,18 @@ h1:hover{
     font-weight: bolder;
   }
 
+  h3#small{
+    position: relative;
+    top: 15px;
+
+  }
+
+  h4#small{
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+  }
+
 #body-blog{
   width:655px;
   height:455px;
