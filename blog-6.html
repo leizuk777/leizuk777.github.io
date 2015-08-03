@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
 
@@ -7,8 +6,19 @@
       <meta charset="UTF-8">
       <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
       <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-      <title>Whats Cookin-TGK Blog</title>
+      <title>Git Bloggin-TGK</title>
 
+    <style>
+
+    a:hover{
+
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+  }
+
+
+
+    </style>
     </head>
 
         <body>
@@ -41,9 +51,9 @@
 
                   <div id="blog-header">
 
-                    <h2>Chef's Kitchen</h2>
+                    <h2>HOW TO?!</h2>
 
-                    <p>7.11.15</p>
+                    <p>7.29.15</p>
 
 
 
@@ -57,15 +67,53 @@
 
                   <div id="blog-body">
 
+                    <p>
+                        After overlooking all of the enumerable choices, I felt the most important was to cover the .each method. This method has to power to go through each element of an array or a hash. This gives the method to power to set a vairable name to each element that exists inside it. Here is a quick example of how you may call an each method to a specific array...
+<br><br>
 
-                        <p>I believe the DBC expierence is going to be a very new to me which is exciting and scary at the same time. At first I was a little nervous about what was required to become a DBC student. But after watching the way they teach and communicate as a whole, has really eased my nerves. The way they have created a system for all levels of experience to work together is very reassuring. My impression is that its going to be a very fast pace, but friendly learning environment. DBC encourages to learn from mistakes while other programs, I feel do the complete opposite. Im very excited to jump into this environment because I feel it will full benefit me although I am a bit nervous. I think after I get my first full day on site I will be ready to roll.</p>
 
-                  <a href="blog-index.html"><div id="ret-blog">
+                        def mode(array)
+<br><br>
+                        array.each do |num|
+<br><br>
+                        As you can see the .each method is calling to look through every single element and give it a variable name of num. This is so you can easily call to the individuals in the array by a simple variable called num.<br><br>
+
+                        .each is also very univeral in that you can _ add-ons to the method teliing it to do other specific things. Some of these include each_char, which seperates each chracter into its own seperate string. There are also each methods specific to hashes such as each_key and each_value. The key method allows you to call on a specific key within the hash. And value doing the exact same but with the value slot instead of key. Here are a few examples...
+
+<br>
+<br>
+
+
+
+                        This calls for each letter to be split by a space(' ')
+                        ruby
+<br><br>
+                        "hello".each_char {|c| print c, ' ' }
+<br><br>
+
+                        Produces<br><br>
+                        h e l l o
+<br><br>
+                        This examples is calling for the values, not keys
+
+<br><br>
+                        h = { "a" => 100, "b" => 200 }
+                        h.each_value {|value| puts value }
+<br><br>
+
+                        Produces<br><br>
+                        100<br><br>
+                        200
+<br><br>
+                        The each method is very universal and has many different ways to use it, many more than what I just showed you here. If you have any questions or find any mistakes. Please feel free to contact me immediately.
+                        <p/><br>
+
+
+                        <a href="blog-index.html"><div id="ret-blog">
 
                           <h2>blogs</h2>
 
                         </div></a>
-
 
 
                   </div>
@@ -77,7 +125,7 @@
 
               </div>
 
-              <div id="footer">
+              <div id="footer_blog3">
 
                 <div class="f_box">
                 </div>
@@ -121,3 +169,26 @@
         </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
